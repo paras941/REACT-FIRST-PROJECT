@@ -1,12 +1,40 @@
-React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite Minimal Template
 
-Currently, two official plugins are available:
+A minimal and modern setup for building React applications with Vite, featuring fast development and basic ESLint rules. Ideal for learning, personal projects, and placement-ready portfolios.
 
-@vitejs/plugin-react uses Babel (or oxc when used in rolldown-vite) for Fast Refresh
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
-React Compiler
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see this documentation.
+⚡ Features
 
-Expanding the ESLint configuration
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the TS template for information on how to integrate TypeScript and typescript-eslint in your project.
+React + Vite: Lightning-fast development with Hot Module Replacement (HMR)
+
+ESLint Integration: Basic linting rules to maintain code quality
+
+Official Plugins:
+
+@vitejs/plugin-react – Babel (or oxc for rolldown-vite) Fast Refresh
+
+@vitejs/plugin-react-swc – SWC Fast Refresh
+
+⚠️ React Compiler is not enabled by default due to dev & build performance impact. Refer to React Compiler Documentation
+ to enable.
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+,📂 Project Structure
+├─ public/          # Static assets
+├─ src/
+│  ├─ App.jsx       # Main App component
+│  ├─ main.jsx      # Entry point
+│  └─ assets/       # Images, CSS, etc.
+├─ package.json
+├─ vite.config.js
+└─ README.md
+
+Open your browser at:
+
+http://localhost:5173
