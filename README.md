@@ -25,7 +25,8 @@ Start the development server:
 
 npm run dev
 
-,📂 Project Structure
+📂 Project Structure
+
 ├─ public/          # Static assets
 ├─ src/
 │  ├─ App.jsx       # Main App component
